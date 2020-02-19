@@ -1,0 +1,20 @@
+replicaCount: 1
+
+image:
+  repository: 673102273038.dkr.ecr.us-west-2.amazonaws.com/bamboo_connector
+  sha: 251ba813d199c0917838dff149d389d681883914
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  port: 80
+
+web:
+  port: 50055
+  host: localhost
+
+server:
+  ingress:
+    extraAnnotations: {}
+  extraIngress:
+    extraAnnotations: {}
