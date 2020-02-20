@@ -2,12 +2,12 @@
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
-  name: bamboo-connector
+  name: bamboo-connector-release
   namespace: connectors
   annotations:
     fluxcd.io/automated: "true"
 spec:
-  releaseName: bamboo-connector
+  releaseName: bamboo-connector-release
   chart:
     git: ssh://git@github.com/jakeva/flux-get-started
     ref: master
