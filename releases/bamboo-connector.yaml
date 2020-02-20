@@ -7,7 +7,7 @@ metadata:
   annotations:
     fluxcd.io/automated: "true"
 spec:
-  releaseName: bamboo-connector-release
+  releaseName: bamboo-connector
   chart:
     git: ssh://git@github.com/jakeva/flux-get-started
     ref: master
