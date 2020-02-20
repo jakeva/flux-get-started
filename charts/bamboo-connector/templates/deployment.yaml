@@ -7,6 +7,9 @@ metadata:
     helm.sh/chart: {{ include "bamboo-connector.chart" . }}
     app.kubernetes.io/instance: {{ .Release.Name }}
     app.kubernetes.io/managed-by: {{ .Release.Service }}
+  annotations:
+    fluxcd.io/automated: "true"
+    fluxcd.io/tag.chart-image: glob:git-*
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
