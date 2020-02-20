@@ -2,7 +2,7 @@
 apiVersion: helm.fluxcd.io/v1
 kind: HelmRelease
 metadata:
-  name: bamboo-connector-release
+  name: bamboo-connector
   namespace: connectors
   annotations:
     fluxcd.io/automated: "true"
