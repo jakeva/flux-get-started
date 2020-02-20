@@ -1,0 +1,1 @@
+{"jobID":"640b95e2-1576-c87b-cc82-f3f42e0b5e15","spec":{"type":"policy","cause":{"Message":"","User":""},"spec":{"connectors:helmrelease/bamboo-connector":{"add":{"automated":"true"},"remove":{}}}},"result":null}
