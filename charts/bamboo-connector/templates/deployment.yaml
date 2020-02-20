@@ -21,7 +21,6 @@ spec:
     spec:
       containers:
         - name: {{ .Chart.Name }}
-          image: "673102273038.dkr.ecr.us-west-2.amazonaws.com/bamboo_connector"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           args: ["ruby", "server.rb"]
           ports:
