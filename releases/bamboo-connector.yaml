@@ -14,6 +14,6 @@ spec:
     path: charts/bamboo-connector
   values:
     image:
-      repository: 673102273038.dkr.ecr.us-west-2.amazonaws.com/bamboo_connector
-      tag: git-6dc31ec4d60acf7add57705f69843d8ec43166c7
+      repository: "673102273038.dkr.ecr.us-west-2.amazonaws.com/bamboo_connector"
+      tag: "git-6dc31ec4d60acf7add57705f69843d8ec43166c7"
     imagePullPolicy: IfNotPresent
