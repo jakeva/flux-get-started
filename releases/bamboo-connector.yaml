@@ -4,8 +4,6 @@ kind: HelmRelease
 metadata:
   name: bamboo-connector
   namespace: connectors
-  annotations:
-    fluxcd.io/automated: "true"
 spec:
   releaseName: bamboo-connector
   chart:
