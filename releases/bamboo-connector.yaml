@@ -6,7 +6,6 @@ metadata:
   namespace: connectors
   annotations:
     fluxcd.io/automated: "true"
-    fluxcd.io/tag.chart-image: glob:git-*
 spec:
   releaseName: bamboo-connector
   chart:
@@ -16,9 +15,3 @@ spec:
   values:
     image:
       repository: 673102273038.dkr.ecr.us-west-2.amazonaws.com/bamboo_connector
-    persistence:
-      enabled: false
-    resources:
-      requests:
-        memory: 32Mi
-        cpu: 10m
