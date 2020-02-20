@@ -12,6 +12,3 @@ spec:
     git: ssh://git@github.com/jakeva/flux-get-started
     ref: master
     path: charts/bamboo-connector
-  values:
-    image:
-      repository: 673102273038.dkr.ecr.us-west-2.amazonaws.com/bamboo_connector

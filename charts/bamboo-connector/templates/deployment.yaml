@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: {{ .Chart.Name }}
-          image: "{{ .Values.image.repository }}"
+          image: "{{ .Values.image.repository }}:git-{{ .Values.image.sha }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           args: ["ruby", "server.rb"]
           ports:
