@@ -2,7 +2,6 @@ replicaCount: 1
 
 image:
   repository: 673102273038.dkr.ecr.us-west-2.amazonaws.com/bamboo_connector
-  sha: 25fe9096b9418633d7e7b8946fd6b3775e282a3b
   pullPolicy: IfNotPresent
 
 service:
